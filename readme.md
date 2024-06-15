@@ -24,24 +24,24 @@ IntelliBot is an advanced AI chatbot developed for the InGenius 2018 hackathon a
 
 ## Installation
 # Set up the backend:
-cd backend
-python -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-pip install -r requirements.txt
+1) cd backend
+2) python -m venv venv
+3) source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+4) pip install -r requirements.txt
 
 # Set up the frontend:
-cd ../frontend
-npm install
+1) cd ../frontend
+2) npm install
 
 ## Running the Application
 # Start the backend server:
-cd ../backend
-python app.py
+1) cd ../backend
+2) python app.py
 
 # Start the frontend development server:
-cd ../frontend
-npm start
-Open http://localhost:3000 in your browser to access IntelliBot.
+1) cd ../frontend
+2) npm start
+3) Open http://localhost:3000 in your browser to access IntelliBot.
 
 ## Usage
 1) Enter your queries in the chat interface.
